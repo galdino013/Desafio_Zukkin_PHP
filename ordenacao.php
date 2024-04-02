@@ -12,7 +12,7 @@ include ('gerador_de_numeros.php');
 //Define que a varivável $numeros abra o arquivo numeros.txt gerado pelo gerador de numeros.
 $numeros = file('numeros.txt');
 
-//Define a função de ordenação, foi utilizado a função QuickSort.
+//Define a função de ordenação, foi utilizado o algoritimo QuickSort.
 function quicksort($numeros) {
     if(count($numeros) < 2) {
         return $numeros;
