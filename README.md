@@ -13,7 +13,7 @@ Apresento um simples sistema de ordenação de números utilizando o algoritmo Q
    Após a execução do script, o sistema irá gerar um arquivo `numeros_ordenados.txt` contendo os números ordenados. Você pode verificar este arquivo para confirmar se os números foram ordenados corretamente.
 
 4. **Observação sobre a ordenação:**
-   No código fornecido, a ordenação é feita em ordem crescente. Se desejar ordenar em ordem decrescente, basta alterar o sinal na linha onde é feita a comparação no algoritmo QuickSort.
+   No código fornecido, a ordenação é feita em ordem crescente. Se desejar ordenar em ordem decrescente, basta alterar o sinal na linha onde é feita a comparação no algoritmo QuickSort, há uma explicação mais detalhada no comentário dentro do código.
 
    ```php
    if($v < $pivo) // Altere para $v > $pivo para ordem decrescente
