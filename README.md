@@ -4,7 +4,7 @@ Apresento um simples sistema de ordenação de números utilizando o algoritmo Q
 
 ## Como utilizar:
 1. **Gerar números aleatórios:**
-   Certifique-se de ter o arquivo `gerador_de_numeros.php` no mesmo diretório do script `ordenacao.php`. Este arquivo é responsável por gerar números aleatórios e armazená-los no arquivo `numeros.txt`.
+   Certifique-se de ter o arquivo `gerador_de_numeros.php` no mesmo diretório do script `ordenacao.php`. Este arquivo é responsável por gerar números aleatórios e armazená-los no arquivo `numeros_desordenados.txt`.
 
 2. **Executar o script de ordenação:**
    Execute o script PHP `ordenacao.php`. Ele primeiro incluirá o arquivo `gerador_de_numeros.php` para gerar os números aleatórios e, em seguida, ordenará esses números utilizando o algoritmo.
